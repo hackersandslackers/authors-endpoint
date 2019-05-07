@@ -1,7 +1,6 @@
 """Bot configuration variables."""
 import os
 
-
 # DB vars
 database_uri = os.environ.get('SQLALCHEMY_DATABASE_URI')
 database_name = os.environ.get('SQLALCHEMY_DATABASE_NAME')
